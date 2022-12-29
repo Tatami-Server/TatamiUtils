@@ -1,0 +1,22 @@
+name: TatamiUtils
+version: '${project.version}'
+main: com.tatamiserver.tatamiutils.TatamiUtils
+api-version: 1.18
+prefix: TatamiUtils
+authors: [ kuripasanda ]
+depend:
+  - LunaChat
+softdepend:
+  - LunaChat
+
+commands:
+  tatamiutils:
+
+permissions:
+  tatamiutils:
+    default: op
+    children:
+      tatamiutils.admin: true
+
+  tatamiutils.admin:
+    default: op
